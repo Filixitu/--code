@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "可视化",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "qiun-data-charts": "../../uni_modules/qiun-data-charts/components/qiun-data-charts/qiun-data-charts",
+    "u-subsection": "../../uni_modules/vk-uview-ui/components/u-subsection/u-subsection"
+  }
+}

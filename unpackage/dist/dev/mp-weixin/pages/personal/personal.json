@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "个人账户",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-button": "../../uni_modules/vk-uview-ui/components/u-button/u-button",
+    "u-switch": "../../uni_modules/vk-uview-ui/components/u-switch/u-switch",
+    "u-popup": "../../uni_modules/vk-uview-ui/components/u-popup/u-popup"
+  }
+}

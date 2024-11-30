@@ -1,0 +1,58 @@
+{
+  "pages": [
+    "pages/image/image",
+    "pages/index/index",
+    "pages/text/text",
+    "pages/log/log",
+    "pages/news/news",
+    "pages/personal/personal",
+    "pages/personal/call"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "防灾避险导航小程序",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#9227e1",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "/static/img/home.png",
+        "selectedIconPath": "/static/img/home_selected.png"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "iconPath": "/static/img/edit.png",
+        "selectedIconPath": "/static/img/edit_selected.png"
+      },
+      {
+        "pagePath": "pages/image/image",
+        "iconPath": "/static/img/407饼图-线性.png",
+        "selectedIconPath": "/static/img/407饼图.png"
+      },
+      {
+        "pagePath": "pages/personal/personal",
+        "iconPath": "/static/img/user.png",
+        "selectedIconPath": "/static/img/user_selected.png"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "路线导航"
+    }
+  },
+  "requiredPrivateInfos": [
+    "getLocation",
+    "startLocationUpdate",
+    "onLocationChange",
+    "startLocationUpdateBackground"
+  ],
+  "lazyCodeLoading": "requiredComponents",
+  "usingComponents": {}
+}

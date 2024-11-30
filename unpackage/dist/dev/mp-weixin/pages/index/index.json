@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "首页",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-search": "../../uni_modules/vk-uview-ui/components/u-search/u-search",
+    "u-subsection": "../../uni_modules/vk-uview-ui/components/u-subsection/u-subsection",
+    "u-popup": "../../uni_modules/vk-uview-ui/components/u-popup/u-popup"
+  }
+}

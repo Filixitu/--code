@@ -1,0 +1,1 @@
+<view><u-checkbox-group wx:if="{{d}}" u-s="{{['d']}}" bindchange="{{b}}" u-i="794d37c2-0" bind:__l="__l" bindupdateModelValue="{{c}}" u-p="{{d}}"><u-checkbox wx:for="{{a}}" wx:for-item="item" wx:key="a" u-i="{{item.b}}" bind:__l="__l" u-p="{{item.c}}"></u-checkbox></u-checkbox-group></view>
